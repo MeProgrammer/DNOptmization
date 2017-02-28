@@ -5,7 +5,7 @@ read -e device_address
 ./finding_ip.sh $device_address>access.txt
 #the place for the network_addresses array
 echo -n "enter a valid ip to search for:";
-read ip;
+read -e ip;
 IFS='
 '
 var=32;
